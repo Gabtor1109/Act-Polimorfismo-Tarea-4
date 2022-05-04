@@ -60,7 +60,7 @@ public class Factura implements PorPagar{
 
     @Override
     public String toString() {
-        return String.format("%s:\n%s(%s)\n%s: %d \n%s: $%,.2f", "Factura","Numero de pieza",obtenerNumeroPieza(),obtenerDescripcionPieza(),"Cantidad",obtenerCantidad(),"Precio Por Articulo", obtenerPrecioPorArticulo());
+        return String.format("%s:\n%s:%s(%s)\n%s: %d \n%s: $%,.2f", "Factura","Numero de pieza",obtenerNumeroPieza(),obtenerDescripcionPieza(),"Cantidad",obtenerCantidad(),"Precio Por Articulo", obtenerPrecioPorArticulo());
     }
     
     @Override

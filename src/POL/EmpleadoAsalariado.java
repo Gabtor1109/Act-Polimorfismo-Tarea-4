@@ -35,7 +35,6 @@ public class EmpleadoAsalariado extends Empleado {
         return salarioSemanal;
     }
     
-    @Override
     public double obtenerMontoPago(){
         return obtenerSalarioSemanal();
     }
