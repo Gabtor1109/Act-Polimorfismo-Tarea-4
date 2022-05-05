@@ -45,7 +45,7 @@ public class EmpleadoPorHoras extends Empleado {
         return horas;
     }
     // completar o usar override
-    //********************+
+    //********************
     @Override
     public double ingresos(){
         if(obtenerHoras()<=40)
@@ -57,4 +57,5 @@ public class EmpleadoPorHoras extends Empleado {
     public String toString(){
         return String.format("empleado por horas: %s\n%s:   $%,.2f:  %s: %,.2f",super.toString(),"sueldo por hora",obtenerSueldo(),"horas trabajadas",obtenerHoras());
     }
+
 }

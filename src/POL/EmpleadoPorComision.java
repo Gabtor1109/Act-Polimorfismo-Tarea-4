@@ -37,7 +37,7 @@ public double obtenerTarifaComision() {
         return ventasBrutas;
     }
     @Override
-public double ingresos() {
+    public double ingresos() {
         return obtenerTarifaComision()*obtenerVentasBrutas();
     }
    
@@ -46,7 +46,6 @@ public double ingresos() {
     public String toString() {
         return String.format("%s: %s\n%s: $%,.2f; %s: %.2f","empleado por comision",super.toString(),"Ventas brutas", obtenerVentasBrutas(), "tarifa de comision", obtenerTarifaComision());
     }
-
    
     
 }
